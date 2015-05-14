@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.pushapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PushNotificationApp</name>
+    <name>Sql Lite App</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
@@ -22,7 +22,7 @@
     </feature>
 	
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
-	
+	<gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.6" />
 	
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
